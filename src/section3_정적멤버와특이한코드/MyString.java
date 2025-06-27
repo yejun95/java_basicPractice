@@ -1,4 +1,4 @@
-package section3;
+package section3_정적멤버와특이한코드;
 
 public class MyString {
 

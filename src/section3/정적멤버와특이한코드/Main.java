@@ -1,4 +1,4 @@
-package section3_정적멤버와특이한코드;
+package section3.정적멤버와특이한코드;
 
 class MyTest {
 

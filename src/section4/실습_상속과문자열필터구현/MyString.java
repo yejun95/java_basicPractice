@@ -7,21 +7,15 @@ public class MyString {
     }
 
     public void setString(String param) {
-        String str;
-        if (onSetString(param)) {
-            str = "아무것도 안함";
-        } else {
-            str = "우리귀요미";
-        }
-
-        this.string = str;
+        String result = onSetString(param);
+        string = result;
     }
 
     public String getString() {
         return this.string;
     }
 
-    public boolean onSetString(String param) {
-        return true;
+    public String onSetString(String param) {
+        return param;
     }
 }
